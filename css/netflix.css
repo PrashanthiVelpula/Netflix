@@ -1,0 +1,176 @@
+@font-face {
+    font-family: Poppins;
+    src: url(../fonts/Poppins/Poppins-Regular.otf);    /*Applying font family*/
+  }
+  body{
+  font-family: Poppins;
+ 
+  }
+.first-sec{
+    width:100vw;
+    height:100vh;
+    background-image:url(../images/netflix-banner.jpg);   /*background image of header section*/
+  }
+  .first-sec-carousel{
+    width:100vw;
+    height:100vh;
+    background-color: rgba(0, 0, 0, 0.418);          /*using carousel for background */
+  }
+
+.sign-btn{
+
+ background-color:rgb(229,9,20);     /*sign-up button*/
+ color: white;
+ margin-left:50px;
+ border-radius: 5px;
+ width:100px;
+ height:35px;
+}
+.select{
+    background-color: transparent;        /*select input for english and hindi*/
+    margin-left:850px;
+    border:1px solid white;
+    border-radius: 5px;
+    width:120px;
+    height:40px;
+    
+}
+.select1{
+    background-color: grey;    /*background-color for option values in select*/
+}
+.select-bottom{
+  background-color: transparent;        /*select input for english and hindi at the bottom of section*/   
+ 
+  border:1px solid white;
+  border-radius: 5px;
+  width:120px;
+  height:60px;
+}
+.unlimited{
+  
+    font-size: 45px;  /*applying font size*/
+}
+.get{
+  background-color: rgb(226,8,19);
+  white-space: nowrap;
+}
+.email-sec{
+  height:60px;
+}
+.watch{
+  border: 3px solid grey;
+}
+.ind-accordion:hover .d-none {
+  display: flex !important;      /*accordion section*/
+  cursor: pointer;
+}
+
+.ind-accordion .text-success {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid green;
+  padding: 0.5em;
+}
+
+.ind-accordion .text-success::after {
+  content: "\f107";
+  font-family: FontAwesome;
+}
+.enjoy{
+  margin-block: auto;
+}
+.margin1{
+  margin-left: 400px;
+}
+
+  @media screen and (min-device-width: 320px) and (max-device-width: 668px) and (-webkit-min-device-pixel-ratio: 2) {
+
+
+     .select{
+      background-color: transparent;
+      margin-left:20px;
+      border:1px solid white;
+      border-radius: 5px;
+      width:80px;
+      margin-right: 5px;
+      height:30px;
+      font-size: 10px;
+      
+  } 
+  .form-cls{
+    align-items: center;
+  }
+   .sign-btn{
+
+    background-color:rgb(229,9,20);
+    color: white;
+    margin-left:0px;
+    
+    border-radius: 5px;
+    width:80px;
+    height:30px;
+   } 
+
+.first{
+  display: flex;
+  justify-content: flex-start;
+  
+}
+.unlimited{
+  
+  font-size: 2em;
+/* top:160px;
+right:450px; */
+}
+.get{
+  background-color: rgb(226,8,19);
+  white-space: nowrap;
+  
+}
+.ind-accordion:hover .d-none {
+  display: flex !important;
+  cursor: pointer;
+}
+
+.ind-accordion .text-success {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid green;
+  padding: 0.5em;
+}
+
+.ind-accordion .text-success::after {
+  content: "\f107";
+  font-family: FontAwesome;
+}
+.first-sec{
+  height:70vh;
+}
+.unlimited{
+  
+  font-size: 30px;  /*applying font size*/
+  margin-top: 0;
+  position: absolute;
+  top:20%;
+  margin-left: 10px;
+}
+.Watch{
+    /*applying font size*/
+  margin-top: 0;
+  position: absolute;
+  top:30%;
+  margin-left: 20px;
+}
+.ready{
+  position: absolute;
+  top:35%;
+}
+.btn-class{
+  position: absolute;
+  margin: auto;
+  top:45%;
+}
+.btn-text{
+  width:100%;
+}
+  }
